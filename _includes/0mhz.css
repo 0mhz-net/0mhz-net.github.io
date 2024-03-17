@@ -111,7 +111,7 @@ pre code {
 }
 
 .bottom-cta {
-  background: linear-gradient(to bottom,#4182e4 0%,#4182e4 100%);
+  background: linear-gradient(to bottom,#92000a 0%,#92000a 100%);
   color: #fff;
   text-align: center;
   margin: 0;
@@ -149,7 +149,7 @@ background-color: #f5f5f5;
 .hero {
 color: #ffffff;
 text-align: center;
-background: linear-gradient(to bottom,#4182e4 0%,#4182e4 100%) no-repeat #a05fb7;
+background: linear-gradient(to bottom,#92000a 0%,#92000a 100%) no-repeat #a05fb7;
 padding-top: 10px;
 }
 .hero h1 {
@@ -198,8 +198,8 @@ padding: 0;
 header {
 color: #fff;
 padding: 20px 0;
-background: #4182e4;
-background: linear-gradient(to bottom,#4182e4 0%,#4182e4 100%) no-repeat #4182e4;
+background: #92000a;
+background: linear-gradient(to bottom,#92000a 0%,#92000a 100%) no-repeat #92000a;
 }
 header a {
 color: #fff;
@@ -527,14 +527,14 @@ right: -3px;
 color: #fff;
 text-decoration: none;
 padding: 10px 30px;
-background: #4182e4;
+background: #92000a;
 border-radius: 3px;
 border: 1px solid rgba(255,255,255,0.5);
 transition: .2s ease-in-out;
 }
 .button a:hover,input[type=submit]:hover {
 border: 1px solid #fff;
-background: #4182e4;
+background: #92000a;
 cursor: pointer;
 }
 .button.alt a {
@@ -545,7 +545,7 @@ padding: 16px 50px;
 }
 .button.alt a:hover {
 background: #fff;
-color: #4182e4;
+color: #92000a;
 }
 textarea,input,button,select {
 font-family: inherit;
@@ -652,7 +652,7 @@ color: #fff;
   }
   nav a.highlight:hover {
   background: #fff;
-  color: #4182e4;
+  color: #92000a;
   }
 }
 
