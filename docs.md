@@ -1,5 +1,5 @@
 ---
-title: 0MHz Collection Setup
+title: 0MHz DOS Collection Setup
 --- 
 
 This is a simple collection of scripts and configurations that, when pointed to a directory of preconfigured VHD files, will produce dedicated MGL files for the MiSTer FPGA system.

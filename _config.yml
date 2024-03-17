@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: 0MHz Collection
+title: 0MHz DOS Collection
 url: "https://0mhz.net"
 baseurl:
 
@@ -9,7 +9,7 @@ baseurl:
 logo: /siteicon.png
 description: The ultimate DOS games and demo scene setup for MiSTer
 author:
-  name: 0MHz Collection
+  name: 0MHz DOS Collection
   email:
   twitter: 
 social:
