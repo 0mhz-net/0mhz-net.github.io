@@ -1,21 +1,21 @@
 # ----
 # Site
 
-title: AmigaVision
-url: "https://amiga.vision"
+title: 0MHz Collection
+url: "https://0mhz.net"
 baseurl:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: The ultimate Amiga games and demo scene setup
 author:
-  name: AmigaVision
+  name: 0MHz Collection
   email:
-  twitter: amiga_vision
+  twitter: 
 social:
   name: 
   links:
-    - https://amiga.vision
+    - https://0mhz.net
 
 # -----
 # Build
