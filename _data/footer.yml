@@ -1,0 +1,18 @@
+#
+# - links:
+#   - name: Mastodon
+#     link: https://mastodon.social/@amiga_vision
+#     new_window: true
+#     social_icon: Mastodon
+#   - name: Twitter
+#     link: https://twitter.com/amiga_vision
+#     social_icon: Twitter
+#     new_window: true
+#   - name: YouTube
+#     link: https://youtube.com/@amiga_vision
+#     social_icon: YouTube
+#     new_window: true
+#   - name: RSS
+#     link: /feed.xml
+#     social_icon: RSS
+#     new_window: false

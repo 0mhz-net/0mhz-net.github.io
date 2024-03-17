@@ -1,0 +1,21 @@
+<p class="post-details">
+	{% for category in include.post.categories %}
+		<span class="blog-filter">
+			<a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
+		</span>
+	{% endfor %}
+	<span class="post-date">
+    <!-- {{ include.post.date | date: "%B %d, %Y" }} -->
+    {% if post.date %}
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}"
+              title="{{ post.date | date: "%Y-%m-%d" }}">
+            {% assign d = post.date | date: "%-d"  %}
+            {{ post.date | date: "%B" }}
+            {% case d %}
+              {% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+            {{ post.date | date: "%Y" }}
+        </time>
+    {% endif %}
+  </span>
+</p>
+

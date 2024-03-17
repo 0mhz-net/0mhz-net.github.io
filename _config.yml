@@ -1,0 +1,88 @@
+# ----
+# Site
+
+title: AmigaVision
+url: "https://amiga.vision"
+baseurl:
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: The ultimate Amiga games and demo scene setup
+author:
+  name: AmigaVision
+  email:
+  twitter: amiga_vision
+social:
+  name: 
+  links:
+    - https://amiga.vision
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+paginate: 20
+paginate_path: "/news/:num/"
+permalink:     /:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        content:
+          width: 1500
+          height: 2500
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+  - scope:
+      path: "index.html"
+    values:
+      layout: "default"
+
+  - scope:
+      path: "download.html"
+    values:
+      layout: "default"
+
+  - scope:
+      path: "docs.md"
+    values:
+      layout: "post"
+
+jekyll-archives:
+  enabled:
+    - categories
+
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+sass:
+  style: compressed
+
+markdown:      kramdown
+markdown_ext:  md
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo

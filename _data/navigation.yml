@@ -1,0 +1,12 @@
+- name: Documentation
+  link: /docs
+  new_window: false
+  highlight: false
+- name: Development
+  link: https://github.com/0mhz-net/0mhz-collection
+  new_window: true
+  highlight: false
+- name: News
+  link: /news/
+  new_window: false
+  highlight: true
