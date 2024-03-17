@@ -7,7 +7,7 @@ baseurl:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: The ultimate Amiga games and demo scene setup
+description: The ultimate DOS games and demo scene setup for MiSTer
 author:
   name: 0MHz Collection
   email:
