@@ -29,7 +29,7 @@ games/
 Once the files have been copied over, 
 
 * Boot up your MiSTer.
-* You will see a new, top-level `DOS Games` section in the menu, enter it.
+* You will see a new, top-level `DOS Games` section in the menu, select it.
 * Select the game you want to start playing.
 * The game will boot with the default settings for graphics and sound, including any memory managers or drivers needed.
 
