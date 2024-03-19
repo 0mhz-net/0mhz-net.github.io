@@ -45,7 +45,6 @@ _DOS Games/
   First Game.mgl
   Second Game.mgl
   Third Game.mgl
-  …etc.  
 config/
   AO486.CFG
 games/
