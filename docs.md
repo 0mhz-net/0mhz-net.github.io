@@ -4,7 +4,7 @@ title: 0MHz DOS Collection Setup
 
 ## Installing a single game
 
-Every game setup is standalone, and contains all the files needed to get it running on MiSTer.
+Every game setup is standalone, and contains the files needed to get it running on MiSTer.
 
 * Simply unpack the zip for the game you want, the file structure will look something like this:
 
@@ -17,7 +17,7 @@ games/
   ao486/
     media/
       super cars international/
-        [hard drive images are here]
+        [hard drive images go here]
 ```
 
 * Copy these files and folders to the root of your MiSTer SD card (use the "Replace Files" or "Merge" option if your OS asks to overwrite the config files). 
@@ -52,11 +52,11 @@ games/
   ao486/
     media/
       first game/
-        [hard drive images are here]
+        [hard drive images go here]
       second game/
-        [hard drive images are here]
+        [hard drive images go here]
       third game/
-        [hard drive images are here]
+        [hard drive images go here]
 
 ```
 * Copy these files and folders to the root of your MiSTer SD card. The `.cfg` file is the same for every game, so there will only be one once you have unpacked all the games.
