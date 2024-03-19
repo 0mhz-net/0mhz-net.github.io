@@ -38,7 +38,7 @@ Once the files have been copied over,
 If you are trying to add multiple games to your system all in one go, the process is very similar:
 
 * Unpack all the zip files **to the same folder** — often shown as "Extract Here" or a similar option, depending on which unpacking application you are using. Also, when asked, "Replace All", since the config file is the same for every game, but it is included to make sure the game also works stand-alone.
-* The structure will then look something like this:
+* The structure should then look something like this:
 
 ```
 _DOS Games/
