@@ -1,5 +1,5 @@
 ---
-title: 0MHz DOS Collection Setup
+title: ⓿MHz DOS Collection Setup
 --- 
 
 ### Setting up a single game
