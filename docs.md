@@ -2,7 +2,7 @@
 title: 0MHz DOS Collection Setup
 --- 
 
-### Installing a single game
+### Setting up a single game
 
 Every game setup is standalone, and contains the files needed to get it running on MiSTer.
 
@@ -33,7 +33,7 @@ Once the files have been copied over,
 * Select the game you want to start playing.
 * The game will boot with the default settings for graphics and sound, including any memory managers or drivers needed.
 
-### Installing multiple games at once
+### Setting up multiple games at once
 
 If you are trying to add multiple games to your system all in one go, the process is very similar:
 
