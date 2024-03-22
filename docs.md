@@ -59,3 +59,18 @@ games/
 
 ```
 * Copy these files and folders to the root of your MiSTer SD card. The `.cfg` file is the same for every game, so there will only be one once you have unpacked all the games.
+
+## Other questions
+
+### Should I worry about PC/DOS viruses?
+
+In short: No. 
+
+Viruses on the PC were quite common, and some retail games even shipped with infected disks in the box. 
+
+Even though we don't control what's being used as inputs to the script that creates the 0MHz DOS Collection setup, pretty much all games and demos run inside VHD containers, you can think of them as "virtualization for DOS". Their job is to insulate the game from the rest of the system, reset CPU vectors, and other system state preservation. So even if a game or demo contains a virus, it cannot stay resident in memory, and will not spread to the rest of the system outside of the sandbox it has been given. Whenever you switch to a new game, the core does a cold boot, and nothing survives.
+
+If you want to check the state of a given setup you downloaded from the internet, use your favorite antivirus tool. But unless you try to mount old hard drive images and start these games on your Windows PC, there is no way to contract a virus on your system. Most antivirus software is generally of poor quality, and false positives are not uncommon, but also nothing to worry about.
+
+We check all files that are under our control for viruses before release.
+
