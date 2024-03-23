@@ -62,6 +62,10 @@ games/
 
 ## Other questions
 
+### Can I use the `ao486` core with just a gamepad/joystick setup?
+
+While we aim to make it as simple as possible to use the 0MHz DOS Collection usable with only controllers, the PC DOS era is a little bit of a wild west when it comes to joystick and controller setups. We recommend that you have a mouse and keyboard available while using this core on MiSTer.
+
 ### Should I worry about PC/DOS viruses?
 
 In short: No. 
