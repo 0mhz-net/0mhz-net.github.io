@@ -66,6 +66,25 @@ games/
 
 While we aim to make it as simple as possible to use the 0MHz DOS Collection usable with only controllers, the PC DOS era is a little bit of a wild west when it comes to joystick and controller setups. We recommend that you have a mouse and keyboard available while using this core on MiSTer.
 
+### Can I run the DOS games on a 15kHz CRT TV or monitor?
+
+Yes, you can use the scaler to output a 15kHz signal that should work on consumer TVs and PVMs/BVMs, but do note that some games may be too high resolution for e.g. text to be readable. Also, not all CRTs will be able to handle this, but we have seen success with the below settings on several CRTs.
+
+Add the following to your `MiSTer.ini`:
+
+```
+[ao486]
+direct_video=0
+vga_scaler=1
+vsync_adjust=1
+vscale_mode=3
+video_mode=1440,40,136,176,240,3,10,6,27000
+```
+
+Make sure to set Aspect Ratio to Full Screen in Audio and Video Section of the core.
+
+(Thanks to Christoph Helms for these settings!)
+
 ### Should I worry about PC/DOS viruses?
 
 In short: No. 
