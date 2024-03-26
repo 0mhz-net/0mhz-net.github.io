@@ -85,7 +85,7 @@ Make sure to set Aspect Ratio to Full Screen in Audio and Video Section of the c
 
 You can play around with the values a little to improve centering on your particular display. The three values are horizontal front porch (`40`), sync (`136`) and back porch (`176`), which control the width and centering of the picture. Adjusting vertical sync is a lot trickier and you won't have as much room to play with.
 
-(Thanks to Christoph Helms for these settings!)
+(Thanks to Christoph Helms for these settings! If you want more detail or other settings, check out the [forum thread](https://misterfpga.org/viewtopic.php?p=63332#p63332))
 
 ### Should I worry about PC/DOS viruses?
 
