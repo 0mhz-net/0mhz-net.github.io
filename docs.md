@@ -87,6 +87,10 @@ You can play around with the values a little to improve centering on your partic
 
 (Thanks to Christoph Helms for these settings! If you want more detail or other settings, check out the [forum thread](https://misterfpga.org/viewtopic.php?p=63332#p63332))
 
+### Can I put the games on external storage or a network storage?
+
+Yes, this should work. Just make sure the `DOS Games` directory and `ao486.cfg` file is located on your SD card, then the HD images can be on your USB or NAS.
+
 ### Should I worry about PC/DOS viruses?
 
 In short: No. 
