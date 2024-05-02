@@ -81,7 +81,7 @@ vscale_mode=3
 video_mode=1440,40,136,176,240,3,10,6,27000
 ```
 
-Make sure to set Aspect Ratio to Full Screen in Audio and Video Section of the core.
+Then, in the core's `Audio and Video` section, set `Aspect Ratio` to `Full Screen`, and `VSync` to `60hz`. Save the settings and restart the core.
 
 You can play around with the values a little to improve centering on your particular display. The three values are horizontal front porch (`40`), sync (`136`) and back porch (`176`), which control the width and centering of the picture. Adjusting vertical sync is a lot trickier and you won't have as much room to play with.
 
