@@ -62,6 +62,12 @@ games/
 
 ## Other questions
 
+### I can't find game XYZ! Can you add it?
+
+ The general idea for the main 0MHz DOS Collection is to be relatively manageable and only include setups for the 2-300 very best games / game series, and perfect those — and instead let the community make any setups for games that don’t meet that high bar (which is of course extremely subjective).
+ 
+ Using “0MHz” as a shorthand for this kind of MGL-based setup approach is of course OK, and since we just link to a search term on archive.org, other packages will show too. There are already additional setups made by other people, but the core collection will stay around its current size.
+
 ### Can I use the `ao486` core with just a gamepad/joystick setup?
 
 While we aim to make it as simple as possible to use the 0MHz DOS Collection usable with only controllers, the PC DOS era is a little bit of a wild west when it comes to joystick and controller setups. We recommend that you have a mouse and keyboard available while using this core on MiSTer.
