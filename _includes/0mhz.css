@@ -761,8 +761,12 @@ background-color: #222527;
 footer .legal-line a {
 font-weight: 600;
 }
-@media (prefers-color-scheme:dark) {body {
+@media (prefers-color-scheme:dark) {
+  body {
   color: #ddd;
+  }
+  .blog-post h3 a {
+    color: #ddd;    
   }
   .content {
   background: #000;
