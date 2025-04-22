@@ -37,28 +37,29 @@ Once the files have been copied over,
 
 If you are trying to add multiple games to your system all in one go, the process is very similar:
 
-* Unpack all the zip files **to the same folder** — often shown as "Extract Here" or a similar option, depending on which unpacking application you are using. Also, when asked, "Replace All", since the config file is the same for every game, but it is included to make sure the game also works stand-alone.
-* The structure should then look something like this:
+**Windows:** For unpacking multiple files, on Windows, we recommend using 7zip, selecting all the files, and using the "Extract here" right click menu item. If asked to overwrite duplicate files, just say "Yes to All".
+
+**macOS:** Most of the tools will unfortunately create a dedicated folder for every game when you unpack (even if they say they won't, like in the case of Keka), so the most efficient way is to use the Terminal:
 
 ```
-_DOS Games/
-  First Game.mgl
-  Second Game.mgl
-  Third Game.mgl
-config/
-  AO486.CFG
-games/
-  ao486/
-    media/
-      first game/
-        [hard drive images go here]
-      second game/
-        [hard drive images go here]
-      third game/
-        [hard drive images go here]
+cd DirectoryWithYourFiles
+for f in *.zip; do unzip -o "$f" -d ./; done
+````
+
+(If you are uncomfortable using the Terminal, just unpack all the files and move the directories manually)
+
+Once unpacked, copy all the folders to the root of your MiSTer. The directories look like this:
 
 ```
-* Copy these files and folders to the root of your MiSTer SD card. The `.cfg` file is the same for every game, so there will only be one once you have unpacked all the games.
+_Computer
+config
+docs
+games
+```
+
+If asked, use the "Merge" option to merge the directories.
+
+The games will launch directly from the MiSTer menu inside `Computer` using MGL files.
 
 ## Other questions
 
