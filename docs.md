@@ -42,7 +42,7 @@ If you are trying to add multiple games to your system all in one go, the proces
 **macOS:** Most of the tools will unfortunately create a dedicated folder for every game when you unpack (even if they say they won't, like in the case of Keka), so the most efficient way is to use the Terminal:
 
 ```
-cd DirectoryWithYourFiles
+cd DirectoryWithAllYourZipFiles
 for f in *.zip; do unzip -o "$f" -d ./; done
 ````
 
