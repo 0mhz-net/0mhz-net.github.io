@@ -3,7 +3,7 @@
   new_window: false
   highlight: false
 - name: Development
-  link: https://github.com/0mhz-net/0mhz-collection
+  link: https://github.com/0mhz-net/0mhz-collection/issues
   new_window: true
   highlight: false
 - name: News
