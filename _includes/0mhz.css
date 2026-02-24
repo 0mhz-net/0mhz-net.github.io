@@ -651,6 +651,16 @@ margin: 18px 0 0 0;
 display: inline-block;
 padding: 10px 16px;
 font-size: .9em;
+background: #92000a;
+border: 1px solid rgba(255,255,255,0.5);
+color: #fff;
+}
+
+.news-grid .news-card .button a:hover {
+background: #92000a;
+border-color: #fff;
+color: #fff;
+text-decoration: none;
 }
 
 .news-grid + .pagination {
@@ -1033,8 +1043,8 @@ font-weight: 600;
     color: #dbe3ec;
   }
   .news-grid .news-card .button a {
-    background: #2f81f7;
-    border-color: rgba(255,255,255,0.3);
+    background: #92000a;
+    border-color: rgba(255,255,255,0.5);
     color: #fff;
   }
   .blog-filter a {
