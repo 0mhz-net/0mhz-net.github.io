@@ -875,10 +875,6 @@ border-bottom: 1px solid rgba(255,255,255,0.3);
     justify-self: center;
     width: min(260px, 100%);
   }
-  body.home-page nav a.highlight,
-  body.download-page nav a.highlight {
-    display: none;
-  }
   body.home-page .content section .text {
     text-align: center;
   }
