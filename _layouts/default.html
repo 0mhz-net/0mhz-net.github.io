@@ -7,6 +7,19 @@
 
 		{% seo %}
 		{% feed_meta %}
+		<meta name="keywords" content="DOS games launcher, DOS game collection, MiSTer DOS setup, DOS FPGA emulator guide">
+		<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "WebSite",
+		  "name": "{{ site.title | escape }}",
+		  "url": "{{ site.url }}{{ site.baseurl }}",
+		  "description": "{{ site.description | escape }}"
+		}
+		</script>
+		<link rel="preload" href="{{ site.baseurl }}/fonts/LibreBaskerville-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ site.baseurl }}/fonts/LibreBaskerville-Bold.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="{{ site.baseurl }}/fonts/LibreBaskerville-Italic.woff2" as="font" type="font/woff2" crossorigin>
 
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
 
@@ -15,11 +28,16 @@
 		{% endcapture %}
 		<style>{{ css | scssify }}</style>
 	</head>
-	<body>
+	<body{% if page.url == '/' %} class="home-page"{% elsif page.url == '/download' or page.url == '/download/' or page.url == '/download.html' %} class="download-page"{% endif %}>
 		<header>
 			<div class="container">
-				<div class="company-name"><h1 style="margin: 0.5em 0"><a {% if page.url =='/' %} style="visibility:hidden" {% endif %} href="{{ site.baseurl }}/">🄌MHz</a></h1></div>
 				{% include navigation.html %}
+				{% if page.url == '/' %}
+					<div class="company-name home-mobile-logo"><a href="{{ site.baseurl }}/">🄌MHz</a></div>
+				{% endif %}
+				{% unless page.url == '/' %}
+					<div class="company-name"><h1 style="margin: 0.5em 0"><a href="{{ site.baseurl }}/">🄌MHz</a></h1></div>
+				{% endunless %}
 			</div>
 		</header>
 		{{ content }}
@@ -45,11 +63,5 @@
 			</div>
 
 		</footer>
-		<script>
-			document.getElementById("open-nav").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
 	</body>
 </html>

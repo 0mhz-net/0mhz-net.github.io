@@ -1,12 +1,24 @@
 <nav>
-	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
 	{% for link in site.data.navigation %}
 		{% assign class = "" %}
+		{% assign is_active = false %}
+
+		{% assign page_url_slash = page.url | append: "/" %}
+		{% assign link_url_slash = link.link | append: "/" %}
+
+		{% if link.link == page.url or link.link == page_url_slash or link_url_slash == page.url %}
+			{% assign is_active = true %}
+		{% endif %}
+
+		{% if link.link == "/news/" and (page.url contains "/news/" or page.collection == "posts" or page.url contains "/category/" or page.layout == "archive") %}
+			{% assign is_active = true %}
+		{% endif %}
+
 		{% if link.highlight %}
 			{% assign class = class | append: " highlight" %}
 		{% endif %}
 
-		{% if link.link == page.url %}
+		{% if is_active %}
 			{% assign class = class | append: " active" %}
 		{% endif %}
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
